@@ -1,0 +1,600 @@
+
+
+html {}
+
+body {}
+
+a:link {
+	color: rgb(31, 39, 126);
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+
+/*td
+{
+        border: none;
+}*/
+
+#page {
+	margin: 0 auto;
+}
+
+#header_wrapper {
+	height: 138px;
+	/*border-bottom: 1px solid #333333;*/
+	min-width: 980px;
+	/*background: url("../assets/header_bg.png") repeat-x;*/
+}
+
+#header {
+	height: 84px;
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#nav {
+	background-color: rgb(31, 39, 126);
+	text-align: center;
+	color: #ffffff;
+	margin: 10px 0px 0px 0px;
+	padding: 10px;
+	font-size: 20px;
+	border-top-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+}
+
+#nav a:link {
+	color: #ffffff;
+}
+
+#nav a:visited {
+	color: #ffffff;
+}
+
+#nav a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+#content {
+	width: 980px;
+	margin: 0 auto;
+}
+
+#logo {
+	padding-top: 10px;
+	margin-left: 20px;
+}
+
+#content {
+	clear: both;
+}
+
+#bpoints li {
+	font-size: 20px;
+	/*color: rgb(31, 39, 126);*/
+	color: #005fc1;
+	margin-left: 20px;
+	padding: 15px 0px;
+	font-weight: bold;
+	line-height: 24px;
+}
+
+#signup_form {
+	margin: 0 auto;
+	width: 240px;
+}
+
+
+/*#signup_form table
+{
+        text-align: center;
+}*/
+
+#signup_form label {
+	font-weight: bold;
+}
+
+#signup_form #email {
+	width: 190px;
+	margin-bottom: 12px;
+}
+
+#signup_form #name {
+	width: 190px;
+	margin-top: 20px;
+	margin-bottom: 12px;
+}
+
+#signup_form #phone {
+	width: 190px;
+	margin-bottom: 12px;
+}
+
+#signup_form #iN {
+	width: 190px;
+	margin-bottom: 12px;
+}
+
+#signup_form #checkOut {
+	width: 190px;
+	margin-bottom: 12px;
+}
+
+#signup_form #message {
+	width: 190px;
+	margin-bottom: 12px;
+}
+
+#footer_wrapper_thankyou {
+	background-image: url(../assets/transparentbg2.png);
+	padding-top: 10px;
+	text-align: center;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+.clear {
+	clear: both;
+	height: 1px;
+}
+
+input[type=text] {
+	width: 190px;
+	display: block;
+	/*border: 1px solid #999;*/
+	height: 25px;
+	padding-left: 5px;
+	margin: auto;
+}
+
+select {
+	width: 200px;
+	margin-bottom: 10px;
+}
+
+#submit {
+	color: #fff;
+	font-size: 0;
+	width: 200px;
+	height: 50px;
+	border: none;
+	margin: 0;
+	padding: 0;
+	background: url(../assets/signup.png) 0 0 no-repeat;
+}
+
+.cc_icons {
+	overflow: hidden
+}
+
+.cc_wrapper {
+	margin: 0 auto;
+	width: 200px
+}
+
+.cc_logo {
+	width: 40px;
+	height: 28px;
+	display: block;
+	float: left;
+	margin: 5px;
+	overflow: hidden;
+}
+
+.cc_amex {
+	background: url("../assets/cc_amex.png") no-repeat
+}
+
+.cc_discover {
+	background: url("../assets/cc_discover.png") no-repeat
+}
+
+.cc_mc {
+	background: url("../assets/cc_mc.png") no-repeat
+}
+
+.cc_paypal {
+	background: url("..assets/cc_paypal.png") no-repeat
+}
+
+.cc_visa {
+	background: url("../assets/cc_visa.png") no-repeat
+}
+
+.cc_interac {
+	background: url("../assets/cc_interac.png") no-repeat
+}
+
+.other {
+	width: 658px;
+	height: 470px;
+	color: #FFF;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+
+/* By Abbas */
+
+.main-form-container {
+	display: block;
+}
+
+.sub-form-container {
+	display: none;
+	font-size: 15px;
+}
+
+.sub-form-container input[type=text] {
+	padding: 5px 10px 5px 10px;
+	width: 82%;
+	margin: 10px 10px 2px 10px;
+}
+
+.sub-form-container input[type=checkbox] {
+	padding: 5px 10px 5px 10px;
+	// width: 82%;
+	margin: 10px 10px 2px 10px;
+}
+
+.input-header {
+	border: 1px solid #cccccc;
+	padding: 8px 10px 8px 10px;
+	margin: 10px 10px 0 10px;
+	font-size: 15px;
+	border-radius: 2px;
+	cursor: pointer;
+	color:  grey;
+}
+
+.input-header:hover {
+	background-color: lightgrey;
+        color:#000;
+}
+
+.input-header-button {
+	border: 1px solid #cccccc;
+	padding: 8px 10px 8px 10px;
+	margin: 15px 10px 0 10px;
+	border-radius: 5px;
+	background-color: #008000;
+	text-align: center;
+	font-size: 15px;
+	color: #ffffff;
+	cursor: pointer;
+        bottom : 10px;
+        right:30px;
+        position:absolute;
+}
+
+.small-font {
+	font-size: 11px;
+	margin-top: -1px;
+	padding-left: 10px;
+}
+
+.chk-input {
+	float: left;
+}
+
+.chk-txt-iambooking {
+	padding-top: 13px;
+	float: right;
+	width: 80%;
+	font-size: 15px;
+}
+
+.subform-btn {
+	border-radius: 2px;
+}
+
+.subform-btn button {
+	width: 100px;
+	margin-top: 120px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.date-form-container .subform-btn button {
+	margin-top: 140px;
+}
+
+.subform-btn-ok {
+	float: left;
+	margin-left: 15px;
+}
+
+.subform-btn-cancel {
+	float: right;
+	margin-right: 15px;
+}
+
+.label-row {
+	border: 1px solid #cccccc;
+	padding: 8px 10px 8px 10px;
+	margin: 15px 10px 0 10px;
+	border-radius: 5px;
+	background-color: lightgrey;
+	text-align: left;
+	font-size: 15px;
+}
+
+.txtcenter {
+	text-align: center;
+}
+
+#slider-range {
+	//width: 80%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.pernite {
+	margin: -30px 0 0 -180px !important;
+	padding-left: -90px;
+	font-size: 12px;
+	//padding-left: -180px;
+}
+
+.price-form-container .subform-btn button {
+	margin-top: 220px;
+}
+
+//Guest
+.guest-form-container label, .suite-form-container label {
+	font: bold 20px Helvetica, sans-serif;
+	display: block;
+	float: left;
+	text-align: right;
+	padding: 5px 0px 0 20px !important;
+	width: 180px;
+}
+
+.guest-form-container input[type=text], .suite-form-container input[type=text] {
+	float: left;
+	width: 30px;
+	height: 30px;
+	font: bold 16px Helvetica, sans-serif;
+	padding: 0 0 0 0;
+	text-align: center;
+	margin-top: 0px;
+}
+
+.guest-form-container .button, .suite-form-container .button {
+	margin: 0 0 0 5px;
+	text-indent: -9999px;
+	cursor: pointer;
+	width: 29px;
+	height: 29px;
+	float: left;
+	text-align: center;
+	background: url(images/buttons.png) no-repeat;
+}
+
+.guest-form-container .dec, .suite-form-container .dec {
+	background-position: 0 -29px;
+}
+
+.guest-form-container .buttons, .suite-form-container .buttons {
+	padding: 20px 0 0 140px;
+}
+
+.numbers-row {
+	border: 1px solid #cccccc;
+	padding: 8px 10px 20px 0px;
+	margin: 10px 10px 0 10px;
+	border-radius: 5px;
+	text-align: left;
+	font-size: 12px;
+}
+
+.numbers-row label {
+	margin-left: 3px;
+}
+
+.guest-form-container .subform-btn button {
+	margin-top: 215px;
+}
+
+.suite-form-container .subform-btn button {
+	margin-top: 30px;
+}
+
+.vss-row {
+	border: 1px solid #cccccc;
+	padding: 8px 10px 20px 10px;
+	margin: 10px 10px 0 10px;
+	border-radius: 5px;
+	text-align: left;
+	font-size: 12px;
+}
+
+.vss-row label {
+	margin-right: 20px;
+	clear: both;
+}
+
+.vss-row input {
+	margin-right: 5px;
+	clear: both;
+}
+
+.vss-row input[type=text] {
+	padding: 2px 10px 2px 10px;
+	width: 90%;
+	margin: -20px 10px 2px 1px;
+}
+
+.option-form-container {
+	font: 13px/18px arial, helvetica, clean, sans-serif;
+}
+
+.option-form-container span input {
+	// float:right;
+	// margin-left: 10%;
+	// width:50%;
+}
+
+.option-form-container .subform-btn button {
+	margin-top: 40px;
+}
+
+.left {
+	float: left;
+	width: 50%;
+}
+
+.right {
+	float: right;
+	width: 50%;
+	text-align: left
+}
+
+.subform-btn button {
+	border: 1px solid #FFF;
+	padding: 8px 10px 8px 10px;
+	border-radius: 0;
+	background-color: #FFF;
+	text-align: center;
+	font-size: 15px;
+	color: black;
+	cursor: pointer;
+}
+
+.hide {
+	display: none;
+}
+
+.border-color-warning {
+    border: 1px solid red;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: black;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: black;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: black;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: black;
+}
+
+.loading {
+    position: absolute;
+    left:33%;
+    top:40%;
+    z-index: 99999;
+    display:none;
+    width:35%;
+}
+#status_message{
+    
+    position: absolute;
+    left:33%;
+    top:40%;
+    z-index: 99999;
+    display:none;
+    padding:12px 10px 10px 10px;
+    width:300px;
+    height:25px;
+    color:lightgrey;
+    font-weight: bold;
+    font-size:20px;
+    background-color: green;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.subform-btn .subform-btn-ok-f button {
+
+
+	color: black;
+	padding: 8px 10px 8px 10px;
+	margin: 15px 22px 0 14px;
+
+	text-align: center;
+	font-size: 15px;
+
+	cursor: pointer;
+        bottom : 10px;
+        *right:30px;
+        left:0px;
+        position:absolute;
+}
+
+
+.btnhover {
+	border-radius: 5px !important;
+	background-color: #008000 !important;
+	color: #ffffff !important;
+}
+
+
+.subform-btn .subform-btn-ok-f button:hover {
+	border: 1px solid #cccccc;
+	padding: 8px 10px 8px 10px;
+	margin: 15px 22px 0 14px;
+	border-radius: 5px;
+	background-color: #008000;
+	text-align: center;
+	font-size: 15px;
+	color: #ffffff;
+	cursor: pointer;
+	bottom : 10px;
+	*right:30px;
+	left:0px;
+	position:absolute;
+}
+
+.subform-btn .subform-btn-cancel-f button {
+
+	padding: 8px 10px 8px 10px;
+	margin: 15px 17px 0 10px;
+
+	text-align: center;
+	font-size: 15px;
+	color: black;
+	cursor: pointer;
+        bottom : 10px;
+        right:0px;
+        *left:0px;
+        position:absolute;
+}
+
+.subform-btn .subform-btn-cancel-f button:hover{
+	border: 1px solid #cccccc;
+	padding: 8px 10px 8px 10px;
+	margin: 15px 17px 0 10px;
+	border-radius: 5px;
+	background-color: #008000;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	cursor: pointer;
+	bottom : 10px;
+	right:0px;
+	*left:0px;
+	position:absolute;
+}
+
+
+#suiteinfo{
+    margin-top: 4px;
+}

@@ -1,0 +1,12 @@
+php vendor/phpunit/phpunit/phpunit tests/unit/BookingTest.php
+
+
+ //$this->assertTrue(true);
+        //
+       /* return [
+            ['/', 200],
+            ['/booking/test', 200],
+            
+        ]; */
+        
+        //$this->visit('/booking/test')->assertSee('inserted');
